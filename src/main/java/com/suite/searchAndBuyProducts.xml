@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="searchAndBuyProducts.xml">
+
+	<test name="Search and Buy product 1">
+		<parameter name="dataFile" value="dataForTesting.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.DemoScripts">
+				<methods>
+					<include name="searchAndBuy"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Search and Buy product 2">
+		<parameter name="dataFile" value="dataForTesting.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.DemoScripts">
+				<methods>
+					<include name="searchAndBuy"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
+
+
+
+	
+
